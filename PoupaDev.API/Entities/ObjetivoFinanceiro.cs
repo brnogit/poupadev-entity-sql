@@ -11,7 +11,6 @@ namespace PoupaDev.API.Entities
    {
        public ObjetivoFinanceiro(string? titulo, string? descricao, decimal? valorObjetivo)
        {
-           Id = new Random().Next(0, 1000);
            Titulo = titulo;
            Descricao = descricao;
            ValorObjetivo = valorObjetivo;
